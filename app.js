@@ -16,6 +16,7 @@ function agregarAmigo() {
     document.getElementById('amigo').value = '';
     personas.push(nombre);
     lista.innerHTML += `<li>${nombre}</li>`;
+    
 }
 
 function sortearAmigo() {
